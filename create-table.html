@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+      <head>
+        <meta charset="UTF-8">
+        <meta name="author" content= "Yash Jaiswal">
+        <meta name="description" content="I am leaning to design webpage using html">
+        <link rel="icon" href="html5.png" type="image/x-icon">
+        <link rel="stylesheet" href="main.css" type="text/css">
+        <title> CREATING TABLES IN HTML</title>
+      </head>
+      <body>
+        <article>
+            <h1>MY DAILY SCHEDULE</h1>
+            <section>
+            <TABLE>
+                <caption>My daily Schedule</caption>
+                <thead>
+                <tr>
+                    <th>&nbsp;</th>
+                    <th scope="col">Time</th>
+                    <th scope="col">Activity</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="row">Morning</th>
+                <td>
+                    
+                    <time datetime="08:00">8 am</time>-<time datetime="11:00">11 am</time>
+                </td>
+                <td>Write code.</td>
+                </tr>
+                <tr>
+                    <th scope="row">afternoon</th>
+                    <td>
+                       
+                        <time datetime="12:00">12 pm</time>-<time datetime="14:00">02 pm </time> 
+                    </td>
+                    <td>Revise whatever studied in college.  </td>
+                </tr>
+                
+                    <tr>
+                        <th scope="row"> Late-Afternoon</th>
+                        <td>
+                            <time datetime="14:00">2 pm </time>-<time datetime="15:00">3 pm</time>
+                        </td>
+                        <td>lunch & nap</td>
+                        </tr> 
+                        <tr>
+                            <th scope="row">Evening</th>
+                            
+                            <td rowspan="2">All Other Times</td>
+                            <td> Free time</td>
+                            <tr>
+                                <th scope="row">Night</th>
+                                <td>Sleep</td>
+                            </tr>
+                        </tr>  
+                    </tbody>   
+                    <tfoot>
+                        <tr>
+                            <td colspan="3">And that's what I do everyday.
+                                Eat,sleep,code &recharge.
+                            </td>
+                        </tr>
+                    </tfoot>          
+            </TABLE>
+            </section>
+            
+        </article>
+    </body>
+</html>
